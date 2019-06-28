@@ -8,6 +8,7 @@ use App\Models\Banking\Account;
 use App\Transformers\Banking\Account as Transformer;
 use Dingo\Api\Routing\Helpers;
 
+// Class for accounts 
 class Accounts extends ApiController
 {
     use Helpers;
